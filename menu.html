@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HmroChatPat Menu</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .container {
+        margin-top: 20px;
+      }
+      .price-list {
+        margin-top: 20px;
+      }
+      .price-list h4 {
+        margin-bottom: 10px;
+      }
+      .card-img-top {
+        height: 200px; /* Set a fixed height */
+        object-fit: cover; /* Ensures the image covers the container */
+      }
+      .card {
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">HmroChatPat</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/allergies.html">Allergies</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Menu Section -->
+    <div class="container" id="menu">
+      <h2 class="text-center m-3">Menu</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="/chatpate.jpg" class="card-img-top" alt="Chatpate" />
+            <div class="card-body">
+              <h5 class="card-title">Chatpate</h5>
+              <p class="card-text">
+                A spicy and tangy Indian snack made with potatoes, spices, and a
+                variety of chutneys.
+              </p>
+              <div class="price-list">
+                <h4>Price List</h4>
+                <p>A-Chatpate: $50</p>
+                <p>B-Chatpate: $70</p>
+                <p>C-Chatpate: $100</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="/panipuri.JPG" class="card-img-top" alt="Panipuri" />
+            <div class="card-body">
+              <h5 class="card-title">Panipuri</h5>
+              <p class="card-text">
+                Popular street food consisting of crispy puris filled with spicy
+                tamarind water, chickpeas, and potatoes.
+              </p>
+              <div class="price-list">
+                <h4>Price List</h4>
+                <p>A-Panipuri: $50</p>
+                <p>B-Panipuri: $70</p>
+                <p>C-Panipuri: $100</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="/laphing.avif" class="card-img-top" alt="Laphing" />
+            <div class="card-body">
+              <h5 class="card-title">Laphing</h5>
+              <p class="card-text">
+                A Tibetan dish made of spicy and tangy noodles. A unique and
+                flavorful experience.
+              </p>
+              <div class="price-list">
+                <h4>Price List</h4>
+                <p>A-Laphing: $50</p>
+                <p>B-Laphing: $70</p>
+                <p>C-Laphing: $100</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Script includes -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
